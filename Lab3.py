@@ -2,7 +2,7 @@ import numpy as nm
 import matplotlib.pyplot as mtp
 import pandas as pd
 
-dataset = pd.read_csv('lab2/User_Data.csv')
+dataset = pd.read_csv('User_Data.csv')
 print(dataset.head())
 x = dataset.iloc[:, [2, 3]].values
 y = dataset.iloc[:, 4].values
